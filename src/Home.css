@@ -1,0 +1,48 @@
+.home-wrapper {
+  height: 100vh;
+}
+
+.home-banner-img {
+  width: 100vw;
+  background-image: url('https://res.cloudinary.com/dnkftif1n/image/upload/v1607456886/projectsGitHUB/2020-12-06_4-14-59_l4wyqm.jpg');
+  background-repeat: repeat;
+  height: 60vh;
+  max-height: 430px;
+  margin: 0;
+  z-index: -1;
+  margin-bottom: -100px;
+}
+.shadow {
+  position: sticky;
+  margin-top: -60vh;
+  height: 60vh;
+  background: linear-gradient(to top, #f0f0f0 0%, #000000 25%);
+}
+.home-row {
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.home-row > * {
+  flex: 1 1 400px;
+}
+.shop-name {
+  margin-top: -30vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-stroke-color: #daf01b;
+  -webkit-text-stroke-color: #daf01b;
+  -moz-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 3px;
+  font-weight: 900;
+  position: relative;
+  font-family: 'Cyberspace-Raceway-Back', sans-serif;
+  font-size: 5rem;
+  padding-bottom: 15vh;
+}
